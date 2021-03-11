@@ -9,6 +9,8 @@ server.use(express.json())
 server.use(morgan('dev'))
 server.use(cors())
 
+
+
 server.get('/', (req, res) => {
   res.send(`<h2>Let's write some middleware!</h2>`);
 });
