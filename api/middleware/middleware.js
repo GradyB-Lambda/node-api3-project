@@ -2,6 +2,7 @@ function logger(req, res, next) {
   // DO YOUR MAGIC
 }
 
+
 function validateUserId(req, res, next) {
   // DO YOUR MAGIC
 }
